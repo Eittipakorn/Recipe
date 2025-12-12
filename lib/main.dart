@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:recipes/Model/recipe.dart';
-import 'package:recipes/recipe-detial.dart';
+import 'package:recipes/recipe-detail.dart';
 
 
 void main() {

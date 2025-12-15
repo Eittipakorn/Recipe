@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: <Widget>[
-            Text(recipe.imgLabel, style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.w700, fontFamily: 'Palatino',)),
+            Text(recipe.imgLabel, style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.w700, fontFamily: 'Athiti',)),
             Image(image: AssetImage(recipe.imageUrl)),
             const SizedBox(height: 14.0),
             Text("I'm HUNGRY!"),

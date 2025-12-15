@@ -19,7 +19,7 @@ class RecipeDetail extends StatelessWidget{
             const SizedBox(height: 20),
             Text(
               recipe.imgLabel,
-              style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              style: const TextStyle(fontSize: 24, fontFamily: 'Athiti', fontWeight: FontWeight.bold),
             ),
             Text(
               recipe.imgDesc,

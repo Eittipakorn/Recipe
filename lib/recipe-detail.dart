@@ -21,6 +21,10 @@ class RecipeDetail extends StatelessWidget{
               recipe.imgLabel,
               style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
+            Text(
+              recipe.imgDesc,
+              style: const TextStyle(fontSize: 16),
+            ),
           ],
         ),
       ),
